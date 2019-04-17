@@ -1,0 +1,126 @@
+.list_tit{
+  color:#311759 ;
+  font-family: "宋体";
+  text-align: center;
+  font-size: 54px;
+  margin-top: 70px;
+}
+.list_des{
+	 color:#311759 ;
+  font-family:  Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 6px;
+  text-align: center
+}
+.list img{
+	display: block;
+}
+.list .threepiont{
+	margin: 20px auto 40px;
+}
+.list_list01{
+	font-size: 31px;
+    font-weight: 600;
+	color:#311759 ;
+    font-family: "宋体";
+    height: 60px;
+    background:url("../image1/pen_line_long.png")no-repeat 0 58px ;
+    width:1049px;
+    position: relative;
+}
+
+.pen{
+	width:61px ;
+	height:54px ;
+	position: absolute;
+    right: -50px;
+    top:6px;
+    background: url('../image/pen.png');
+}
+.pen:hover{
+	background: url('../images/pen_hover.png');
+}
+.list_cont{
+	margin-top: 35px;
+}
+.list_cont li{
+	float: left;
+	background: #fff;
+	padding-left: 20px;
+	padding-top: 36px;
+	padding-bottom: 20px;
+	width: 513px;
+	border: 1px solid transparent;
+	margin-right: 20px;
+    margin-bottom: 25px;
+    transition: .5s ease;
+
+}
+.list_cont li:nth-of-type(2n){
+	margin-right: 0px;
+}
+.list_cont li .li_left{
+	 margin-right: 20px;
+	 position:relative;
+}
+.list_cont li .li_left .xiaosanjiao{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border: 10px solid transparent;
+	border-top-color: #fff;
+	top: 0px;
+	left: -20px;
+	/*opacity: 0;*/
+}
+.list_cont li:hover .li_left .xiaosanjiao{
+left:40px;
+transition: .5s ease 0s;
+}
+.list_cont li .list_right{
+	width: 221px;
+}
+.list_cont li .list_right .right_tit{
+	font-size: 20px;
+    color: #454548;
+    padding-top: 15px;
+    line-height: 24px;
+}
+.list_cont li .list_right .time{
+    color: #6b6a6f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 2px;
+}
+.list_cont li .list_right .des{
+    padding-top: 8px;
+    color: #47464a;
+    line-height: 25px;
+    max-height: 75px;
+    overflow: hidden;
+    font-family: KaiTi_GB2312;
+    
+}
+.list_cont li:hover{
+	border-color: #311759;
+	transform: translateY(-2px);
+	}
+.img_more{
+	margin: 10px auto 20px;
+}	
+.quan{
+		width:58px;
+		height:58px;
+		background: url("../image1/lis_more_btn_bg.png") no-repeat 0 -58px;
+		margin: 20px auto 20px;
+		
+}
+	.quan:hover{
+		background-position: 0 0;
+		transition: .5s ease;
+	}
+body{
+	background: #f1f2f6;
+}
+

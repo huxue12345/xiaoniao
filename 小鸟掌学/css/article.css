@@ -1,0 +1,152 @@
+.main .inner{
+ background: #fff;	
+ width: 1100px;
+ margin: 0 auto;
+}
+.content{
+ width:780px;
+ margin: 0 auto;
+ overflow: hidden;
+}
+body{
+	background:#f1f2f6 ;
+}
+.title{
+	font-family:"宋体" ;
+	color:#311759;
+}
+.title img{
+	display:block;
+	margin: 20px auto 70px;
+}
+.title .sup-tit{
+	text-align: center;
+	font-size:50px;
+	line-height: 50px;
+	margin-top: 71px;
+    line-height: 50px;
+}
+.title .sub-tit{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 6px;
+     margin-top: 10px;
+     line-height: 18px;
+}
+.list-pen{
+ position: relative;
+ width: 719px;
+/* overflow: hidden;*/
+}
+.list-pen img{
+	display: block;
+	
+}
+.list-pen .p-tit{
+	font-family:"宋体" ;
+	color:#311759 ;
+	font-size:24px;
+	font-weight: 600;
+	line-height: 27px;
+}
+.list-pen .img_kun{
+	margin-top: 28px;
+	width: 100%;
+	height: 2px;
+}
+.list-pen .pen-line{
+ width: 100%;
+ height: 100%;	
+}
+.list-pen .pen{
+	position: absolute;
+    right: -55px;
+    bottom: 0px;
+}
+.author-wrap{
+font-size: 16px;
+margin-top: 20px;
+color:#6b6a6f ;
+margin-bottom: 64px;
+}
+/*.author-wrap .date{}
+.author-wrap .author{}*/
+.article-content{}
+.article-content .big-img{
+display: block;
+margin-bottom: 39px;
+}
+.article-txt{
+	font-family:"宋体";
+	line-height: 22px;
+}
+.like-wrap{
+	width: 208px;
+	margin: 85px auto 38px 
+}
+.like-showbox{
+	width:73px;
+	height:73px;
+	overflow: hidden;	
+}
+.like-showbox.now{
+	width: 208px;
+	animation: zhun .5s linear ;
+}
+.like-showbox .like.now{
+background-position: 0 -73px;
+transition: .5s ease 0s;
+}
+.like-showbox .like{
+	width:73px;
+	height:73px;
+	position:relative;
+	background: url("../images/article_iflike.png");
+}
+.like-showbox .like-number{
+	width:135px;
+    height:35px;
+    position: absolute;
+    right:-141px;
+    top: 17px;
+    color: #fff;
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    background: url('../images/article_iflike_nomberbg.png');
+}
+@keyframes zhun{
+	0%{
+		transform: rotate(0deg) ;
+		
+	}
+	25%{
+		transform: rotate(-5deg);
+	}
+	50%{
+		transform: rotate(5deg) ;
+	}
+	75%{
+		transform: rotate(-5deg) ;
+	}
+	100%{
+		transform: rotate(0deg) ;
+	}
+}
+.like-tips-wrap{
+	width: 208px;
+	
+	height: 30px;
+	margin: 10px auto 10px;
+}
+.like-tips{
+	 width:100px;
+	 margin: 0px auto 0px;
+	font-size: 12px;
+	color: #FF6363;
+	background: #A4A4A4;
+	line-height: 22px;
+	text-align: center;
+   
+}

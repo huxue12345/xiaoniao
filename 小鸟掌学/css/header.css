@@ -1,0 +1,126 @@
+
+header{
+	background: url('../image/header_bg.jpg') no-repeat center;
+	width: 100%;
+	height: 120px;	
+}
+a.logo{
+	display: block;
+	width:376px ;
+	height: 120px;
+	background: url('../image/logo.png');
+}
+.head-right{
+ margin-top: 40px;	
+}
+.head-right li{
+ float: left;	
+ padding:0 15px;
+ position:relative ;
+}
+.head-right .birds{
+  padding-right: 40px;	
+}
+.head-right li>a{
+font-size:16px ;
+color:#fff ;
+font-family: "宋体";
+line-height:35px;	
+font-weight:500;	
+}
+.head-right li.now>a{
+    height: 40px;
+    float: left;
+    background: url(../image/nav_now_bg.png) no-repeat 30px 35px
+}
+.head-right li:first-of-type.now>a{
+background: url(../image/nav_now_bg.png) no-repeat 15px 35px
+}
+.head-right li .nav_xiaojiantou{
+ width:25px;
+ height:25px;
+ display:block;
+ position: absolute;
+ background: url("../image/nav_xiajiantou.png") no-repeat center;
+ top: 6px;
+ right: 8px;	
+}
+.head-right .birds dl{
+	width: 180px;
+	overflow: hidden;
+	position: absolute;
+	background:#36264a;
+	/*background: #003900;*/
+	top: 40px;
+	left: -30px;
+	height: 0px;
+	transition: height 1s;
+	z-index: 100;
+}
+.head-right .birds .list_xiaoniaozx.now{
+	
+	animation: upone .3s  ease-in both .1s;	
+}
+.head-right .birds .list_rencom.now{
+	animation: uptwo .3s  ease-in both .1s;	
+}
+@keyframes upone{
+	0%{
+	  height: 0px;	
+	}
+	50%{
+		height: 280px;
+	}
+	76%{height: 240px;}
+	
+	80%{
+		height: 270px;
+	}
+	81%{
+		height: 260px;
+	}
+	90%{height: 265px;}
+	100%{
+		height: 240px;
+	}
+}
+@keyframes uptwo{
+	0%{
+	  height: 0px;	
+	}
+	50%{
+		height: 160px;
+	}
+	76%{height: 120px;}
+	
+	80%{
+		height: 150px;
+	}
+	81%{
+		height: 140px;
+	}
+	90%{height: 145px;}
+	100%{
+		height: 120px;
+	}	
+}
+
+.head-right .birds dd{
+	padding-left:30px;
+	text-align: left;
+	box-sizing: border-box;
+	line-height:40px;
+}
+.head-right .birds dd:hover{
+	padding-left: 40px;
+	transition: padding-left .4s ease 0s;  
+	background:#3498db url('../image/nav_li_bg.png') no-repeat 165px 15px;
+}
+.head-right .birds dd a{
+	font-size: 16px;
+	font-family: '宋体';
+	color: #fff;
+	font-weight:lighter;
+
+	
+}

@@ -1,0 +1,106 @@
+.footer{
+	background: url("../image/yinyue_bg.jpg");
+	height: 348px;
+	
+}
+footer img{
+	width: 100%;
+	display: block;
+}
+.music{
+	padding-top:116px;
+	padding-left: 303px;
+}
+.music span{
+	float:left ;
+	width:58px;
+	height:57px ;
+	margin-right:25px;
+} 
+.music span:hover{
+animation:pubbing .4s both  ;	
+}
+@keyframes pubbing{
+	0%{
+		transform:  scale(1 ,1);
+	}
+	25%{
+		transform:  scale(1.2,0.8);
+	}
+	50%{
+		transform:  scale(0.9,1.2);
+	}
+	65%{
+		transform:  scale(1.18,0.86);
+	}
+	75%{
+		transform:  scale(0.94,1.03);
+	}
+	85%{
+		transform:  scale(1.01,0.98);
+	}
+	95%{
+		transform:  scale(0.98,1.02);
+	}
+	100%{
+		transform:  scale(1,1);
+	}
+	
+}
+.music .duo{
+	background:url('../image/yinyue_duo.png')no-repeat ;
+} 
+.music .duo.now{
+	background-position:0 -57px;
+}
+.music .lai{
+	background:url('../image/yinyue_lai.png')no-repeat ;
+}
+.music .lai.now{
+	background-position:0 -57px;
+}
+.music .mi{
+	background:url('../image/yinyue_mi.png')no-repeat ;
+} 
+.music .mi.now{
+	background-position:0 -57px;
+}
+.music .fa{
+	background:url('../image/yinyue_fa.png')no-repeat ;
+} 
+.music .fa.now{
+	background-position:0 -57px;
+}
+.music .suo{
+	background:url('../image/yinyue_suo.png')no-repeat ;
+}
+.music .suo.now{
+	background-position:0 -57px;
+}
+.music .la{
+	background:url('../image/yinyue_la.png')no-repeat ;
+} 
+.music .la.now{
+	background-position:0 -57px;
+} 
+.music .xi{
+	background:url('../image/yinyue_xi.png')no-repeat ;
+}
+.music .xi.now{
+	background-position:0 -57px;
+}
+ 
+.footer_p{
+	text-align: center;
+    font-size:14px;
+    color:#ebffed ;
+    width: 100%;
+    border-top:2px dashed #9890a2;
+    line-height: 65px;
+    margin-top: 88px;
+    margin-bottom: 20px;
+    font-family: "宋体";
+}
+.footer_p:hover{
+	color:#6CF;
+}
